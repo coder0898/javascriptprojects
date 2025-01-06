@@ -1,0 +1,31 @@
+.button-div{
+  padding: 30px;
+}
+
+.button-div button{
+  width: 200px;
+  height: 40px;
+  background-color: #4267B2;
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+  border-radius: 1rem;
+  transition: all .4s ease-in-out;
+}
+
+.button-div button a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.button-div button a span{
+  margin-right: 15px;
+}
+
+.button-div button:hover{
+  transform: scaleY(1.4);
+}
+
+
+

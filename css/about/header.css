@@ -1,0 +1,19 @@
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  main header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2072AF;
+    padding: 30px;
+  }
+  
+  main header p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+  }

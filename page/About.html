@@ -4,9 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/about/header.css" />
+    <link rel="stylesheet" href="../css/about/button.css" />
+    <link rel="stylesheet" href="../css/about/container-about.css" />
   </head>
   <body>
-    <a href="/index.html">Back to Home</a>
-    <p>Welcome to About</p>
+    <main>
+      <header>
+        <p>Welcome to About Page</p>
+      </header>
+      <section class="button-div">
+        <button>
+          <a href="/index.html"
+            ><span><i class="fa-solid fa-arrow-left"></i></span>Back to Home</a
+          >
+        </button>
+      </section>
+      <section class="container">
+        <div class="wrapper">
+          <img src="/images/myAvatar.png" alt="avatar-image" />
+          <div class="person-name">
+            <h1>Pratik Bakshi</h1>
+            <p>Mumbai, India</p>
+          </div>
+          <div class="content">
+            <h2>Front End Developer</h2>
+          </div>
+          <div class="contact-link">
+            <a href="" class="button"
+              ><span class="link-icon"
+                ><i class="fa-brands fa-linkedin"></i></span
+              ><span class="link-title">LinkedIn</span></a
+            >
+            <a href="" class="button"
+              ><span class="link-icon"><i class="fa-brands fa-github"></i></span
+              ><span class="link-title">Github</span></a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>@copyright with Coder0898</footer>
   </body>
 </html>

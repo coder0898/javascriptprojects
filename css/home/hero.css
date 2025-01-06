@@ -1,0 +1,79 @@
+/* hero page */
+header .hero-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.hero-container .hero-image{
+    padding: 20px;
+}
+
+.hero-container .hero-image img{
+    width: 400px;
+}
+
+.animated{
+    position: relative;
+    animation-name: heroImage;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-fill-mode: both;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes heroImage{
+    0% {
+        transform: translateY(20px);
+      }
+      100% {
+        transform: translateY(-20px);
+      }
+}
+
+.hero-container .hero-description{
+    width: 600px;
+    padding: 20px;
+}
+
+.hero-container .hero-description h4{
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.hero-container .hero-description h4 .heading-span{
+    background-color: #2072AF;
+    padding: 10px;
+    border-radius: 1rem;
+    color: #ffffff;
+    margin-right: 5px;
+}
+
+.span-animated{
+    animation-name: spanScale;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-fill-mode: both;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes spanScale{
+    from {
+        background-color: #2072AF;
+      }
+      to {
+        background-color: #f72585;
+      }
+}
+
+
+.hero-container .hero-description p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
